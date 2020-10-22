@@ -1,45 +1,39 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Teoria das Categorias
+#+date: <2020-10-11 Sun>
+#+author: Gustavo Mello
+#+email: u0_a287@localhost
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.1 (Org mode 9.3)
+#+OPTIONS: toc:nil
+
 * Simple Category Example
 ** Water Physical States
-#+begin_src ditaa  :file estados_da_água.png :exports results 
-            +----------+
-Evaporation |          | Sublimation
-     +----->+   Gas    +-------+ inv.
-     |      |          |       |
-     |      +-+-------++       |
-     |        |       ^        |
-     | Condns.v       |Sublim. v
-    ++----------+    +----------+
-    |           |gl. |          |
-    |  Liquid   +--->+  Solid   |
-    |           |    |          |
-    +-----------+    +----------+
-          ^----------------+
-             Liquefaction
+#+begin_src dot :file estados_da_água.png :exports results :cmdline -Kdot -Tpng
+digraph W {
+    gas    -> liquid [label = "   condensation"]
+    gas    -> solid  [label = "   inverse sublimation"]
+    liquid -> gas    [label = "   gaseification"]
+    liquid -> solid  [label = "   gelation"]
+    solid  -> gas    [label = "   sublimation" ]
+    solid  -> liquid [label = "   liquefaction"]
+}
 #+end_src
 
 #+RESULTS:
 [[file:estados_da_água.png]]
 
-#+begin_src elisp
-(expand-file-name
-             "ditaa.jar"
-      (file-name-as-directory
-            (expand-file-name
-                "scripts"
-               (file-name-as-directory
-                  (expand-file-name
-                      "../contrib"
-                     (file-name-directory (org-find-library-dir "org")))))))
-#+end_src
-
-#+RESULTS:
-: /data/data/com.termux/files/usr/share/emacs/27.1/lisp/contrib/scripts/ditaa.jar
-
 ** The Category $\mathcal{W}$ for the water physical states
 *** Objects:
-- $G$:= Gas state
-- $L$:= Liquid state
-- $S$:= Solid state
+- $G$ := Gas state
+- $L$ := Liquid state
+- $S$ := Solid state
 
 *** Morphisms
 - /c/ := condensation
@@ -49,17 +43,17 @@ Evaporation |          | Sublimation
 - /s/ := sublimation
 - /i/ := inverse sublimation
 
-*** Typings  
+*** Typings
 - /c/: G \to L
 - /e/: L \to G
 - /g/: L \to S
 - /l/: S \to L
 - /s/: S \to G
-- /i/: G \to S
-- /id/: a \to a, \forall a \in [A, B, C]
+- /i/: G \to S]
 
 *** Composition
 - /g/ \circ /f/ := f then g
 
 *** Identity
 - id_A := keep A
+  

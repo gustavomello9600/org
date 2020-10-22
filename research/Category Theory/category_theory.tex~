@@ -1,0 +1,81 @@
+% Created 2020-10-11 Sun 02:42
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{unknown}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={unknown},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 27.1 (Org mode 9.3)}, 
+ pdflang={English}}
+\begin{document}
+
+
+\section{Simple Category Example}
+\label{sec:org93e62b2}
+\subsection{Water Physical States}
+\label{sec:org81422dc}
+\begin{center}
+\includegraphics[width=.9\linewidth]{estados_da_água.png}
+\end{center}
+
+\subsection{The Category \(\mathcal{W}\) for the water physical states}
+\label{sec:orgc47edcd}
+\subsubsection{Objects:}
+\label{sec:org858a78c}
+\begin{itemize}
+\item \(G\) := Gas state
+\item \(L\) := Liquid state
+\item \(S\) := Solid state
+\end{itemize}
+
+\subsubsection{Morphisms}
+\label{sec:orgf537dd0}
+\begin{itemize}
+\item \emph{c} := condensation
+\item \emph{e} := evaporation
+\item \emph{g} := gelation
+\item \emph{l} := liquefaction
+\item \emph{s} := sublimation
+\item \emph{i} := inverse sublimation
+\end{itemize}
+
+\subsubsection{Typings}
+\label{sec:orge1869a4}
+\begin{itemize}
+\item \emph{c}: G \(\to\) L
+\item \emph{e}: L \(\to\) G
+\item \emph{g}: L \(\to\) S
+\item \emph{l}: S \(\to\) L
+\item \emph{s}: S \(\to\) G
+\item \emph{i}: G \(\to\) S]
+\end{itemize}
+
+\subsubsection{Composition}
+\label{sec:org050b8ea}
+\begin{itemize}
+\item \emph{g} \^{} \emph{f} := f then g
+\end{itemize}
+
+\subsubsection{Identity}
+\label{sec:org728e706}
+\begin{itemize}
+\item id\textsubscript{A} := keep A
+\end{itemize}
+\end{document}

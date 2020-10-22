@@ -1,0 +1,15 @@
+\documentclass{exam}
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+\begin{questions}
+
+  \question A distância entre dois conjuntos de pontos A e B é definida como a menor distância entre um par de pontos (a, b) tal que a $\in$ A e b $\in$ B.
+
+  \begin{parts}
+    \part Mostre que a distância entre uma reta $r$ e uma reta $s$ tal que $r \cap s = A$ é 0. \\
+    \textit{Dica: distâncias são sempre números pertencentes aos reais positivos incluindo o zero ou ainda $\delta (a, b) \ge 0$}
+  \end{parts}
+  
+\end{questions}
+\end{document}
