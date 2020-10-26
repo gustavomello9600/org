@@ -1,25 +1,19 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.10.10)  22 OCT 2020 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.23)  26 OCT 2020 02:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **distância_entre_retas.tex
 (./distância_entre_retas.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/exam/exam.c
-ls
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
 Document Class: exam 2017/12/17 Version 2.603 by Philip Hirschhorn
-
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/ifthen
-.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/articl
-e.cls
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/size10
-.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -75,14 +69,14 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \c@pageof@pagebonuspoints=\count267
 \c@latest@points=\count268
 \c@latest@bonuspoints=\count269
-\pageinfo@commands=\toks15
-\temp@toks=\toks16
-\pagepoint@commands=\toks17
-\point@toks=\toks18
+\pageinfo@commands=\toks14
+\temp@toks=\toks15
+\pagepoint@commands=\toks16
+\point@toks=\toks17
 \c@ques@object=\count270
 \marginpointssep=\skip61
 \rightpointsmargin=\skip62
-\choice@toks=\toks19
+\choice@toks=\toks18
 \answerlinelength=\skip63
 \answerskip=\skip64
 \answerclearance=\skip65
@@ -110,60 +104,123 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \exam@FrameRule=\dimen136
 \exam@FrameSep=\dimen137
 )
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/base/inpute
-nc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks20
-\inpenc@posthook=\toks21
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 )
-(/data/data/com.termux/files/usr/share/texlive/texmf-dist/tex/latex/l3backend/l
-3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count282
-\l__pdf_internal_box=\box46
-) (./distância_entre_retas.aux)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip74
+\thm@postskip=\skip75
+\thm@headsep=\skip76
+\dth@everypar=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip77
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen138
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count282
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count283
+\leftroot@=\count284
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count285
+\DOTSCASE@=\count286
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box46
+\strutbox@=\box47
+\big@size=\dimen140
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count287
+\c@MaxMatrixCols=\count288
+\dotsspace@=\muskip16
+\c@parentequation=\count289
+\dspbrk@lvl=\count290
+\tag@help=\toks28
+\row@=\count291
+\column@=\count292
+\maxfields@=\count293
+\andhelp@=\toks29
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks30
+\multlinegap=\skip78
+\multlinetaggap=\skip79
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count294
+\l__pdf_internal_box=\box48
+)
+(./distância_entre_retas.aux)
 \openout1 = `distância_entre_retas.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  [1
 
-{/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/map/pdftex/updm
-ap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 This exam contains 1 questions with 3 parts, 2 subparts, and 0 subsubparts.
 (./distância_entre_retas.aux) ) 
 Here is how much of TeX's memory you used:
- 1477 strings out of 480608
- 22452 string characters out of 5892805
- 270939 words of memory out of 5000000
- 17439 multiletter control sequences out of 15000+600000
- 532992 words of font info for 26 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 32i,9n,23p,267b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
-</data/data/com.termux/files/usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></data/data/com.termux/fil
-es/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></dat
-a/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on distância_entre_retas.pdf (1 page, 57792 bytes).
+ 2173 strings out of 483090
+ 29974 string characters out of 5963928
+ 276781 words of memory out of 5000000
+ 17251 multiletter control sequences out of 15000+600000
+ 533446 words of font info for 28 fonts, out of 8000000 for 9000
+ 61 hyphenation exceptions out of 8191
+ 32i,10n,25p,267b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+>
+Output written on distância_entre_retas.pdf (1 page, 59505 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
