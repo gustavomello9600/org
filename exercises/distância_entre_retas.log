@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.23)  26 OCT 2020 14:45
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.23)  26 OCT 2020 02:53
->>>>>>> d4fd224e3364a5c5020c95a4ec72da6a035773b2
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.12)  26 OCT 2020 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,17 +109,28 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
-\thm@preskip=\skip74
-\thm@postskip=\skip75
-\thm@headsep=\skip76
-\dth@everypar=\toks26
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
+\calc@Askip=\skip74
+\calc@Bskip=\skip75
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count284
+\calc@Cskip=\skip76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
@@ -135,54 +142,96 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks27
-\ex@=\dimen138
+\@emptytoks=\toks22
+\ex@=\dimen140
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen139
+\pmbraise@=\dimen141
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count282
+\inf@bad=\count285
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count283
-\leftroot@=\count284
+\uproot@=\count286
+\leftroot@=\count287
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count285
-\DOTSCASE@=\count286
+\classnum@=\count288
+\DOTSCASE@=\count289
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box46
 \strutbox@=\box47
-\big@size=\dimen140
+\big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count287
-\c@MaxMatrixCols=\count288
+\macc@depth=\count290
+\c@MaxMatrixCols=\count291
 \dotsspace@=\muskip16
-\c@parentequation=\count289
-\dspbrk@lvl=\count290
-\tag@help=\toks28
-\row@=\count291
-\column@=\count292
-\maxfields@=\count293
-\andhelp@=\toks29
-\eqnshift@=\dimen141
-\alignsep@=\dimen142
-\tagshift@=\dimen143
-\tagwidth@=\dimen144
-\totwidth@=\dimen145
-\lineht@=\dimen146
-\@envbody=\toks30
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
+\tag@help=\toks23
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
+\andhelp@=\toks24
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks25
 \multlinegap=\skip78
 \multlinetaggap=\skip79
-\mathdisplay@stack=\toks31
+\mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
-<<<<<<< HEAD
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count297
+\l_MT_multwidth_dim=\dimen149
+\origjot=\skip80
+\l_MT_shortvdotswithinadjustabove_dim=\dimen150
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen151
+\l_MT_above_intertext_sep=\dimen152
+\l_MT_below_intertext_sep=\dimen153
+\l_MT_above_shortintertext_sep=\dimen154
+\l_MT_below_shortintertext_sep=\dimen155
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks27
+\thm@bodyfont=\toks28
+\thm@headfont=\toks29
+\thm@notefont=\toks30
+\thm@headpunct=\toks31
+\thm@preskip=\skip81
+\thm@postskip=\skip82
+\thm@headsep=\skip83
+\dth@everypar=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -207,103 +256,122 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count294
+\l__kernel_color_stack_int=\count298
 \l__pdf_internal_box=\box48
 )
 (./distância_entre_retas.aux)
 \openout1 = `distância_entre_retas.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen147
+\scratchcounter=\count299
+\scratchdimen=\dimen158
 \scratchbox=\box49
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen148
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks33
-) [1
-=======
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count294
-\l__pdf_internal_box=\box48
-)
-(./distância_entre_retas.aux)
-\openout1 = `distância_entre_retas.aux'.
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen159
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks34
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
- [1
->>>>>>> d4fd224e3364a5c5020c95a4ec72da6a035773b2
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
+7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 80--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--87
+
+ []
+
+[2] [3]
 This exam contains 1 questions with 3 parts, 2 subparts, and 0 subsubparts.
 (./distância_entre_retas.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 3099 strings out of 483090
- 41267 string characters out of 5963928
- 294830 words of memory out of 5000000
- 18161 multiletter control sequences out of 15000+600000
- 533446 words of font info for 28 fonts, out of 8000000 for 9000
+ 4714 strings out of 483090
+ 63735 string characters out of 5963929
+ 320469 words of memory out of 5000000
+ 19712 multiletter control sequences out of 15000+600000
+ 535303 words of font info for 37 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
- 32i,10n,37p,359b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 2173 strings out of 483090
- 29974 string characters out of 5963928
- 276781 words of memory out of 5000000
- 17251 multiletter control sequences out of 15000+600000
- 533446 words of font info for 28 fonts, out of 8000000 for 9000
- 61 hyphenation exceptions out of 8191
- 32i,10n,25p,267b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> d4fd224e3364a5c5020c95a4ec72da6a035773b2
+ 37i,16n,37p,722b,488s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
->
-<<<<<<< HEAD
-Output written on distância_entre_retas.pdf (1 page, 60746 bytes).
-=======
-Output written on distância_entre_retas.pdf (1 page, 59505 bytes).
->>>>>>> d4fd224e3364a5c5020c95a4ec72da6a035773b2
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
+Output written on distância_entre_retas.pdf (3 pages, 89211 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

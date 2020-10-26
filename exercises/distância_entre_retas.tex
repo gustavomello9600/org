@@ -1,11 +1,11 @@
 \documentclass{exam}
 \usepackage[utf8]{inputenc}
+\usepackage{mathtools}
 \usepackage{amsthm}
 \usepackage{amsmath}
-<<<<<<< HEAD
+\usepackage{amssymb}
+\usepackage{stmaryrd}
 \usepackage{xcolor}
-=======
->>>>>>> d4fd224e3364a5c5020c95a4ec72da6a035773b2
 \renewcommand{\baselinestretch}{1.2}
 \setlength{\parskip}{1em}
 
@@ -27,18 +27,17 @@
   
   \begin{parts}
     \part Demonstre que a distância entre uma reta $r$ e uma reta $s$ tal que $r \cap s = A$ é sempre 0. \\
-    \textit{Dica: distâncias são sempre números pertencentes aos reais positivos incluindo o zero ou ainda $\delta (A, B) \ge 0, \forall \ A \forall \ B$}
+    \textit{Dica: distâncias são sempre números pertencentes aos reais positivos incluindo o zero ou ainda $\delta (A, B) \ge 0, \forall A \ \forall B$}
 
-<<<<<<< HEAD
-    {\color{gray}
+    {\color{red}
     Por hipótese, isto é, pelo caso que a questão apresenta:
     \begin{equation*}
     \begin{aligned}
-      \exists A | A \in r, A \in s & \wedge \\
-      \delta (A, A) = 0 & \wedge \\
-      \delta (A, B) \ge 0 & \wedge \\
-      \delta (r, s) = \text{mín}(\{ \delta (A, B), \forall A \in r, \forall B \in s \}) & \Rightarrow \\
-      \delta (r, s) = 0 & \qed
+      & \exists A \ | \  A \in r, A \in s & \ \wedge \\
+      & \delta (A, A) = 0 & \ \wedge \\
+      & \delta (A, B) \ge 0 & \ \wedge \\
+      & \delta (r, s) = \text{mín}\{ \delta (A, B), \forall A \in r, \forall B \in s \} & \Rightarrow \\
+      & \delta (r, s) = 0 & \qed
     \end{aligned}
     \end{equation*}
 
@@ -47,29 +46,58 @@
       Se existe um ponto $A$ tal que $A$ pertence às duas retas, se a distância entre um ponto e ele mesmo é 0, se qualquer distância entre dois pontos é maior ou igual a 0 e se a distância entre duas retas é a menor distância possível entre dois de seus pontos, então a distância entre $r$ e $s$ é 0. $\qed$
     \end{quote}
     }
-=======
-    Por hipótese, isto é, pelo caso que a questão apresenta:
-    \begin{equation*}
-    \begin{aligned}
-    \exists A | A \in r, A \in s & \wedge \\
-    \delta (A, A) = 0 & \wedge \\
-    \delta (A, B) \ge 0 & \wedge \\
-    \delta (r, s) = \text{mín}(\{ \delta (A, B), \forall A \in r, \forall B \in s \}) & \Rightarrow \\
-    \delta (r, s) = 0 & \qed
-    \end{aligned}
-    \end{equation*}
-
->>>>>>> d4fd224e3364a5c5020c95a4ec72da6a035773b2
     \part Demonstre que a distância entre duas retas paralelas $r // s$ é igual a medida de um segmento de reta $\overline{AB}$, A $\in$ r e B $\in$ s tal que $\overline{AB} \perp r \land \overline{AB} \perp s$
 
     \begin{subparts}
-      \subpart Mostre que a distância entre um ponto A e uma reta r tal que A $\notin$ r é determinada pela medida de um segmento de reta $\overline{AB}$, B $\in$ r tal que $\overline{AB} \perp r$. \\
+      \subpart Mostre que a distância entre um ponto $A$ e uma reta $r$ tal que $A \notin r$ é determinada pela medida de um segmento de reta $\overline{AB}$, B $\in$ r tal que $\overline{AB} \perp r$. \\
       \textit{Dica: Utilize o Teorema de Pitágoras}
 
+      {\color{red}
+        A demonstração pode ser feita por contradição. Primeiro assumimos que o que queremos provar é falso e, por termos assumido falsidade, chegamos numa contradição. Portanto, a afirmação só pode ser verdadeira (caso contrário, nossa matemática seria inconsistente).
+
+        Demonstração formal:
+        \begin{equation*}
+        \begin{aligned}
+          & \text{Seja } P \in r \mid P \ne B \land \delta (A, P) < \delta (A, B)                 &               \\
+          & \Rightarrow \delta ^2 (A, P) < \delta ^2 (A, B)                                       &               \\
+          & \Rightarrow \delta ^2(A, P) - \delta ^2(A, B) < 0                                     & \ \text{(I)}  \\
+          &                                                                                       &               \\
+          & \overline{AB} \perp r \land B, P \in r                                                &               \\
+          & \xRightarrow{\text{Pitágoras}} \delta ^2 (A, P) = \delta ^2 (A, B) + \delta ^2 (B, P) &               \\
+          & \Rightarrow \delta ^2 (B, P) = \delta ^2 (A, P) - \delta ^2 (A, B)                    & \ \text{(II)} \\
+          &                                                                                       &               \\
+          & \text{(I)} \land \text{(II)}                                                          &               \\      
+          & \Rightarrow \delta ^2 (B, P) < 0                                                      & \ \lightning  \\
+          &                                                                                       &               \\
+          & \therefore \nexists P \in r \mid P \ne B \land \delta (A, P) < \delta (A, B)          &               \\
+          & \Rightarrow \text{mín}\{ \delta (A, P), \forall P \in r\} = \delta (A, B)             &               \\
+          & \xRightarrow{\text{Definição}} \delta (A, r) = \delta (A, B), \overline{AB} \perp r   & \ \qed        \\      
+        \end{aligned}
+        \end{equation*}
+        
+        Lê-se como:
+        \begin{quote}
+          Tomando um ponto $P$ em $r$ tal que $P$ não seja $B$ e assumindo que sua distância até $A$ é menor do que a distância de $A$ até $B$, podemos dizer que o quadrado da distância de $A$ até $P$ é menor que o quadrado da distância de $A$ até $B$. Isto implica que a diferença entre o quadrado da distância de $A$ até $P$ e o quadrado da distância de $A$ até $B$ é negativa. Esta é a conclusão (I). \\
+          \\
+          Se o segmento de $A$ a $B$ é perpendicular à reta $r$ e $B$ e $P$ pertencem a $r$, então, por Pitágoras, o quadrado da distância de $A$ até $P$ é igual a soma do quadrado da distância de $A$ até $B$ com o quadrado da distância de $B$ até $P$. Isto implica que o quadrado da distância de $B$ até $P$ é igual a diferença entre o quadrado da distância de $A$ até $P$ e o quadrado da distância de $A$ até $B$. Esta é a conclusão (II). \\
+          \\
+          Se concluímos (II), que o quadrado da distância de $B$ até $P$ é igual a diferença entre o quadrado da distância de $A$ até $P$ e o quadrado da distância de $A$ até $B$, e concluímos (I), que diz que essa diferença é negativa, então o quadrado da distância de $B$ até $P$ é negativo. Porém o quadrado de um número real nunca pode ser negativo: chegamos a uma contradição. \\
+          \\
+          Portanto, não existe um $P$ em $r$ tal que $P$ seja diferente de $B$ e que a distância de $A$ até $P$ seja menor que a distância de $A$ até $B$. Isto implica que a mínima distância entre um ponto em $P$ qualquer em $r$ e o ponto $A$ é a distância entre $A$ e $B$. Isto implica, pela definição dada da distância entre dois conjuntos de pontos, que a distância entre a reta $r$ e o ponto $A$ é a distância entre $A$ e $B$ onde o segmento de $A$ até $B$ é perpendicular à reta $r$. $\qed$  
+        \end{quote}
+      }
+
       \subpart Mostre que, por simetria, todos os pontos de uma reta s tal que $s // r$ tem a mesma distância em relação a r. Determine, portanto, $\delta (r, s)$.
+               {\color{red}
+                 \begin{quote}
+                   Como as retas paralelas $r$ e $s$ são infinitas, existe uma simetria de translação entre elas. Isto significa que eu posso deslizar uma delas em relação a outra por qualquer número de unidades e teremos o mesmo arranjo de antes da translação. Portanto, uma propriedade do ponto $A \in r$ em relação à reta $s$ valerá igualmente para todos os outros pontos em $r$. Como demonstrado no item anterior, a distância entre um ponto e uma reta é a medida de um segmento de reta que passa pelo ponto e é perpendicular à reta. Desta forma, a distância entre as retas $r$ e $s$ pode ser definida como a distância de \emph{qualquer ponto} em r até s.
+                 \end{quote}
+               }
+      
     \end{subparts}
 
     \part Como você calcularia $\delta (r, s)$ se r e s são retas reversas?
+          {\color{red} Questão Aberta.}
   \end{parts}
   
 \end{questions}
