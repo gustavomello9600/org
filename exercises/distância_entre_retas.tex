@@ -1,5 +1,8 @@
 \documentclass{exam}
 \usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{xcolor}
 \renewcommand{\baselinestretch}{1.2}
 \setlength{\parskip}{1em}
 
@@ -23,6 +26,23 @@
     \part Demonstre que a distância entre uma reta $r$ e uma reta $s$ tal que $r \cap s = A$ é sempre 0. \\
     \textit{Dica: distâncias são sempre números pertencentes aos reais positivos incluindo o zero ou ainda $\delta (A, B) \ge 0, \forall \ A \forall \ B$}
 
+    {\color{gray}
+    Por hipótese, isto é, pelo caso que a questão apresenta:
+    \begin{equation*}
+    \begin{aligned}
+      \exists A | A \in r, A \in s & \wedge \\
+      \delta (A, A) = 0 & \wedge \\
+      \delta (A, B) \ge 0 & \wedge \\
+      \delta (r, s) = \text{mín}(\{ \delta (A, B), \forall A \in r, \forall B \in s \}) & \Rightarrow \\
+      \delta (r, s) = 0 & \qed
+    \end{aligned}
+    \end{equation*}
+
+    Lendo as sentenças acima, teríamos algo como:
+    \begin{quote}
+      Se existe um ponto $A$ tal que $A$ pertence às duas retas, se a distância entre um ponto e ele mesmo é 0, se qualquer distância entre dois pontos é maior ou igual a 0 e se a distância entre duas retas é a menor distância possível entre dois de seus pontos, então a distância entre $r$ e $s$ é 0. $\qed$
+    \end{quote}
+    }
     \part Demonstre que a distância entre duas retas paralelas $r // s$ é igual a medida de um segmento de reta $\overline{AB}$, A $\in$ r e B $\in$ s tal que $\overline{AB} \perp r \land \overline{AB} \perp s$
 
     \begin{subparts}
