@@ -1,0 +1,40 @@
+* A Natureza das Funções
+
+** Calculando a velocidade das bolinhas
+*** Problema
+Uma bolinha rola sobre um trilho retilíneo como esquematizado na figura abaixo:
+
+#+NAME: Figura 1
+#+BEGIN_SRC 
+   -2    -1     0    +1    +2    +3    +4
+    |  |  |  |  |  |  |  |  |  |  |  |  | 
+    ===================================== = = = =
+ 🎱_____ᴨ______________________________ _ _ _ _ 
+=======/============================== = = = =
+      /                    
+     /               /‾‾/╷
+    /             /‾‾‾‾‾‾/⎸     
+   /_____________|‾‾‾‾‾‾|/ 
+                  ‾‾‾‾‾‾ 
+#+END_SRC
+
+Quando a bolinha passa pelo botão na marcação -1, ativa um timer de 4 segundos
+que dispara a câmera.
+
+**** Nível 1
+Qual a velocidade da bolinha, em metros/segundo, se a foto a mostra sobre a marcação +3?
+
+**** Nível 2
+Lançando agora três bolinhas em instantes diferentes, temos:
+| Bola   | Posição na foto |
+| azul   |              +2 |
+| branca |              +4 |
+| preta  |              +5 |
+
+Calcule a velocidade de cada bola
+
+*** Generalização da resolução
+Para uma bola qualquer que parou na posição $x$,
+\[
+v(x) = \frac{1 + x}{4}
+\]

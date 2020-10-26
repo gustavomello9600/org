@@ -1,0 +1,85 @@
+% Created 2020-10-20 ter 16:24
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{cm-unicode}
+\author{Gustavo}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Gustavo},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+
+
+\section{A Natureza das Funções}
+\label{sec:orgd5d9490}
+
+\subsection{Calculando a velocidade das bolinhas}
+\label{sec:orged3bc27}
+\subsubsection{Problema}
+\label{sec:orgb244b3b}
+Uma bolinha rola sobre um trilho retilíneo como esquematizado na figura abaixo:
+
+\begin{verbatim}
+   -2    -1     0    +1    +2    +3    +4
+    |  |  |  |  |  |  |  |  |  |  |  |  | 
+    ===================================== = = = =
+ 🎱_____ᴨ______________________________ _ _ _ _ 
+=======/============================== = = = =
+      /                    
+     /               /‾‾/╷
+    /             /‾‾‾‾‾‾/⎸     
+   /_____________|‾‾‾‾‾‾|/ 
+		  ‾‾‾‾‾‾ 
+\end{verbatim}
+
+Quando a bolinha passa pelo botão na marcação -1, ativa um timer de 4 segundos
+que dispara a câmera.
+
+\begin{enumerate}
+\item Nível 1
+\label{sec:org1b463c5}
+Qual a velocidade da bolinha, em metros/segundo, se a foto a mostra sobre a marcação +3?
+
+\item Nível 2
+\label{sec:org14bfe6f}
+Lançando agora três bolinhas em instantes diferentes, temos:
+\begin{center}
+\begin{tabular}{lr}
+Bola & Posição na foto\\
+azul & +2\\
+branca & +4\\
+preta & +5\\
+\end{tabular}
+\end{center}
+
+Calcule a velocidade de cada bola
+\end{enumerate}
+
+\subsubsection{Generalização da resolução}
+\label{sec:org1509224}
+Para uma bola qualquer que parou na posição \(x\),
+\[
+v(x) = \frac{1 + x}{4}
+\]
+\end{document}
