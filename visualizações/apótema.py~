@@ -1,0 +1,11 @@
+from manimlib.imports import *
+
+class Apótema(ThreeDScene):
+    def construct(self):
+        self.set_camera_orientation(phi=30*DEGREES)
+        self.begin_ambient_camera_rotation()
+        hexagon = RegularPolygon(n=6)
+
+        self.play(ShowCreation(hexagon))
+        
+        self.wait(3)
