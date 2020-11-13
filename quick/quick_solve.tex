@@ -2,20 +2,35 @@
 \usepackage{amsmath}
 
 \begin{document}
+\subsection*{Questão}
+Seja a função $f$ definida por:
+$$ f(x) = (2m + 1)x^2 - 4x - 2m + 4 $$
+Determine o número real $m$ para que $f$ admita os zeros $x_1$ e $x_2$ tais que $x_1 ≤ x_2 < 1$.
+
+\subsection*{Solução}
 \begin{equation*}
   \begin{aligned}
-  & \begin{cases}
-    f(0) = 8 \\
-    f(x + 1) = 4f(x) - 1 \\
-  \end{cases} \\
-  \\
-  & \begin{cases}
-    a_0 = 8 \\
-    a_{n + 1} = 4a_n - 1 \\
-  \end{cases} \\
-  \\
-  & f(1) = a_1 = 4a_0 - 1 = 4 \times 8 - 1 = 31 \\
-  & f(2) = a_2 = 4a_1 - 1 = 4 \times 31 - 1 = 123 \\
-\end{aligned}
+    & \exist x_1, x_2 \\
+    & \Rightarrow \Delta \ge 0 \\
+    & \Rightarrow (-4)^2 - 4(2m + 1)(4 - 2m) \ge 0 \\
+    & \Rightarrow 16 + 16m^2 - 24m - 16 \ge 0 \\
+    & \Rightarrow 8m(2m - 3) \ge 0 \\
+    & \Rightarrow m \le 0 \lor m \ge \frac{3}{2} \\
+    & \\
+    & x_1 ≤ x_2 < 1 \\
+    & \Rightarrow f(1) \times (2m + 1) > 0 \\
+    & \Rightarrow (1) \times (2m + 1) > 0 \\
+    & \Rightarrow (2m + 1) > 0 \\
+    & \Rightarrow m > -\frac{1}{2} \\
+    \\
+    & x_1 ≤ x_2 < 1 \\
+    & \Rightarrow x_v < 1 \\
+    & \Rightarrow \frac{4}{2(2m + 1)} < 1 \\
+    & \Rightarrow \frac{2}{2m + 1} - 1 < 0 \\
+    & \Rightarrow \frac{1 - 2m}{2m + 1} < 0 \\
+    & \Rightarrow m > \frac{1}{2} \lor m < -frac{1}{2} \\
+  \end{aligned}
 \end{equation*}
+
+Calculando a intersecção dos 3 intervalos acima determinados, chegamos a $m \ge \frac{3}{2}$. Para testar, tente substituir $m = 2$ nas inequações e ver que todas se satisfazem. Para confirmar que a resposta do livro está errada, pegue $m = -\frac{1}{4}$ e veja que a inequação do $x_v$ não é satisfeita. 
 \end{document}
